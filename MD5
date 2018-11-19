@@ -1,0 +1,10 @@
+867b0719fbd03b465a0db19767432806 *DESCRIPTION
+82d98cc5fc170cf82979df168ee428fb *NAMESPACE
+c9b9c8d4f302a56c561994cb1bc4655d *R/computePDelta.R
+772a2810fc7b9a61dfb42f832c0ea329 *R/psica.R
+c1e317fc15c3452b6e952cef3576ca55 *man/plot.psicaTree.Rd
+6cfbe1bc7188d6a8639810e83decf828 *man/predict.psicaTree.Rd
+22040fd148ed14f7d880f2af73569934 *man/print.psicaTree.Rd
+c20c07560054e9a3aac88b9ee46cfcae *man/prune.psicaTree.Rd
+cfb707d1ea8a268caa1befd3f746a69a *man/psica.Rd
+ba13f3fd2a7e4dedf3859ad6aa82abf4 *man/snip.psicaTree.Rd
