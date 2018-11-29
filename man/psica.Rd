@@ -2,7 +2,7 @@
 % Please edit documentation in R/psica.R
 \name{psica}
 \alias{psica}
-\title{Create a tree that discovers groups having similar treatement
+\title{Create a tree that discovers groups having similar treatment
 (intervention) effects.}
 \usage{
 psica(formula, data, intervention, method = "normal",
@@ -31,7 +31,7 @@ infinitesimal jackknife with bias correction.}
 be splitted when growing random forest, default 10
  \item mincriterion: "mincriterion" setting of the random forest,
 see ctree in package partykit
-\item nBoots: number of trees in either random forest or BART ensemble.
+\item nBoots: number of trees in random forest.
 \item nTrees: amount of trees in each random forest
 \item mtry: number of variables to be selected at each split. Choose either 'sqrt(amount_of_inputs)'
 if amount of input variables is large or 'amount_of_inputs' if there are few input variables.
@@ -87,4 +87,7 @@ pt=psica(Y~X, data=data, method="normal",intervention = "interv",
 print(pt)
 plot(pt)
 
+}
+\references{
+\insertRef{psica}{psica}
 }

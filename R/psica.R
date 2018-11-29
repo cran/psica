@@ -183,7 +183,7 @@ createpsicaTree=function(formula, data, parms, control, ...){
   return(res)
 }
 
-#' Create a tree that discovers groups having similar treatement
+#' Create a tree that discovers groups having similar treatment
 #' (intervention) effects.
 #'
 #' @param formula Formula that shows the dependent variable (effect)
@@ -201,7 +201,7 @@ createpsicaTree=function(formula, data, parms, control, ...){
 #' be splitted when growing random forest, default 10
 #'  \item mincriterion: "mincriterion" setting of the random forest,
 #' see ctree in package partykit
-#' \item nBoots: number of trees in either random forest or BART ensemble.
+#' \item nBoots: number of trees in random forest.
 #' \item nTrees: amount of trees in each random forest
 #' \item mtry: number of variables to be selected at each split. Choose either 'sqrt(amount_of_inputs)'
 #' if amount of input variables is large or 'amount_of_inputs' if there are few input variables.
@@ -255,8 +255,11 @@ createpsicaTree=function(formula, data, parms, control, ...){
 #' print(pt)
 #' plot(pt)
 #'
+#' @references
+#' \insertRef{psica}{psica}
 #' @export
 #' @importFrom stats as.formula terms
+#' @importFrom Rdpack reprompt
 psica=function(formula, data, intervention, method="normal",
                forestControl=list(minsplit=10, mincriterion=0.95, nBoots=500, nTrees=200, mtry=5),
                treeControl=rpart::rpart.control(minsplit=20, minbucket=10, cp=0.003),
@@ -328,6 +331,7 @@ psica=function(formula, data, intervention, method="normal",
 #' @importFrom graphics par boxplot plot
 #' @importFrom stats predict
 #' @importFrom gridBase gridFIG
+#'
 plot.psicaTree=function(x, type=1,...){
 #  browser()
   pT<-x

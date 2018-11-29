@@ -1,0 +1,21 @@
+citHeader("To cite the psica package in publications use:")
+
+citEntry(
+         entry="Article",
+         author=personList(
+           as.person("Oleg Sysoev"),
+           as.person("Krzysztof Bartoszek"),
+           as.person("Eva-Charlotta Ekstrom"),
+           as.person("Katarina Ekholm Selling")
+           ),
+         title="PSICA: decision trees for probabilistic subgroup identification with categorical treatments",
+         year="2018",
+         journal= "arXiv preprint arXiv:1811.09065",
+         textVersion=paste(
+         "Sysoev, O. and Bartoszek, K. and Ekstrom., EC. and Ekholm Selling, K.(2018)",
+	 "PSICA: decision trees for probabilistic subgroup identification with categorical treatments",
+	 "http://arxiv.org/abs/1811.09065"
+           )
+         )
+
+

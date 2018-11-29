@@ -1,10 +1,13 @@
-867b0719fbd03b465a0db19767432806 *DESCRIPTION
-82d98cc5fc170cf82979df168ee428fb *NAMESPACE
+b5d411728884ff8cf6cb24296ed1eebe *DESCRIPTION
+56ec0926c5f2f4ca3246ea5c4aa35b59 *NAMESPACE
 c9b9c8d4f302a56c561994cb1bc4655d *R/computePDelta.R
-772a2810fc7b9a61dfb42f832c0ea329 *R/psica.R
+3ee44a8246b7f4562d8ef48b062986df *R/psica.R
+5f7b86093faaeefe67e12518c21a2eff *build/partial.rdb
+20ce332c9aec7be09b88eb25dde16c8e *inst/CITATION
+da5ca60ba812d7510995f57794f13db3 *inst/REFERENCES.bib
 c1e317fc15c3452b6e952cef3576ca55 *man/plot.psicaTree.Rd
 6cfbe1bc7188d6a8639810e83decf828 *man/predict.psicaTree.Rd
 22040fd148ed14f7d880f2af73569934 *man/print.psicaTree.Rd
 c20c07560054e9a3aac88b9ee46cfcae *man/prune.psicaTree.Rd
-cfb707d1ea8a268caa1befd3f746a69a *man/psica.Rd
+85e1e268bc35f1b7e8f05e7bb6943f60 *man/psica.Rd
 ba13f3fd2a7e4dedf3859ad6aa82abf4 *man/snip.psicaTree.Rd
