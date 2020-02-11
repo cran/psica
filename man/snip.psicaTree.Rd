@@ -11,8 +11,6 @@
 
 \item{indices}{vector of indices of the nodes. All contents below the nodes with these
 indices will be pruned.}
-
-\item{...}{further parameters to be passed to 'rpart' object.}
 }
 \description{
 Prunes desired nodes in a PSICA tree.

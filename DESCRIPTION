@@ -2,7 +2,7 @@ Package: psica
 Type: Package
 Title: Decision Tree Analysis for Probabilistic Subgroup Identification
         with Multiple Treatments
-Version: 1.0.1
+Version: 1.0.2
 Author: Oleg Sysoev, Krzysztof Bartoszek, Katarina Ekholm Selling and Lotta
     Ekstrom
 Maintainer: Oleg Sysoev <Oleg.Sysoev@liu.se>
@@ -21,8 +21,8 @@ LazyData: true
 Imports: Rdpack, grid, gridBase, randomForest, rpart, partykit, party,
         BayesTree
 RdMacros: Rdpack
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2018-11-29 11:39:47 UTC; olesy12
+Packaged: 2020-02-11 16:58:08 UTC; olesy12
 Repository: CRAN
-Date/Publication: 2018-11-29 12:00:03 UTC
+Date/Publication: 2020-02-11 17:20:11 UTC

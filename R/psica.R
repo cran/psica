@@ -448,7 +448,6 @@ snip <- function (pT, ...) {
 #' @param pT the PSICA tree to be pruned.
 #' @param indices vector of indices of the nodes. All contents below the nodes with these
 #' indices will be pruned.
-#' @param ... further parameters to be passed to 'rpart' object.
 #' @export
 
 snip.psicaTree<-function(pT, indices){

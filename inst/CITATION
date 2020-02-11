@@ -9,12 +9,14 @@ citEntry(
            as.person("Katarina Ekholm Selling")
            ),
          title="PSICA: decision trees for probabilistic subgroup identification with categorical treatments",
-         year="2018",
-         journal= "arXiv preprint arXiv:1811.09065",
+         year="2019",
+         volume="38",
+         pages="4436-4452",
+         journal= "Statistics in Medicine",
          textVersion=paste(
-         "Sysoev, O. and Bartoszek, K. and Ekstrom., EC. and Ekholm Selling, K.(2018)",
+         "Sysoev, O. and Bartoszek, K. and Ekstrom., EC. and Ekholm Selling, K.(2019)",
 	 "PSICA: decision trees for probabilistic subgroup identification with categorical treatments",
-	 "http://arxiv.org/abs/1811.09065"
+	 "Statistics in Medicine. 2019; 38: 4436-4452"
            )
          )
 
